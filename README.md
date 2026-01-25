@@ -18,4 +18,6 @@ Eventually
 Nope! That's all. And I currently have no other plans for it.
 
 ## What if I find a bug?
-Given that it's such a small mod, there isn't a whole lot that *could* go wrong, but saying that has opened me up to being incredibly wrong. If you find something wrong, report it on the [Issue tracker](https://github.com/Jolkert/Perch/issues/new)
+Given that it's such a small mod, there isn't a whole lot that *could* go wrong, but saying that has opened me up to 
+being incredibly wrong. If you find something wrong, report it on the
+[Issue tracker](https://codeberg.org/Jolkert/perch/issues/)
