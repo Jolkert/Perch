@@ -1,5 +1,4 @@
 package dev.jolkert.perch.mixin;
-
 import net.minecraft.world.entity.player.Player;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.gen.Invoker;
@@ -8,5 +7,5 @@ import org.spongepowered.asm.mixin.gen.Invoker;
 public interface ShoulderDropInvoker
 {
 	@Invoker("removeEntitiesOnShoulder")
-	void removeEntitiesOnShoulder();
+	void perch$removeEntitiesOnShoulder();
 }
