@@ -25,7 +25,6 @@ repositories {
 	}
 
 	maven("https://maven.terraformersmc.com/") { name = "Terraformers" } // Mod Menu
-	maven("https://maven.createmod.net/") { name = "Create" }
 }
 
 cloche {
