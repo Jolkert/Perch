@@ -3,7 +3,7 @@
 Perch is a simple mod that simply makes entities (i.e. parrots) not fall off
 your shoulder when you fall down.
 All other vanilla causes of parrots dismounting still apply, so touching water, flying, sleeping, and standing in powder snow
-will stil cause parrots to dismount.  
+will still cause parrots to dismount.  
 Additionally, you can now also force them to dismount by right-clicking the ground with an empty hand while sneaking.
 
 ## Works Fully Serversside
