@@ -9,7 +9,7 @@ Additionally, you can now also force them to dismount by right-clicking the grou
 ## Works Fully Serversside
 
 In multiplayer, the mod **only needs to be installed on the server** to function, and players without the mod installed
-are able to connect to servers witeh the mod installed.
+are able to connect to servers with the mod installed.
 
 ## Version Policy
 
