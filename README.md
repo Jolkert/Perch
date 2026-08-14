@@ -1,30 +1,29 @@
 # Perch
-Have you ever wished parrots would just stay put on your shoulder? Perch is a simple mod that makes falling not cause
-entites (see: parrots) to fall off of your shoulder.
 
-# Questions you may want the answers to
-## So how do I get rid of them now?
-***Sneak right-clicking the ground with nothing in your main hand*** will now cause all entities on your shoulder to
-dismount. Additionally, all other vanilla interactions that cause parrots to dismount still apply.
-These include: touching water, flying, sleeping, and standing in powder snow
+Perch is a simple mod that simply makes entities (i.e. parrots) not fall off
+your shoulder when you fall down.
+All other vanilla causes of parrots dismounting still apply, so touching water, flying, sleeping, and standing in powder snow
+will stil cause parrots to dismount.  
+Additionally, you can now also force them to dismount by right-clicking the ground with an empty hand while sneaking.
 
-## How does this work on servers?
-The mod should work **entirely server-side.** If you install it on the server, **no players will need to install the mod**.
-Simply having it installed to the server will be enough!
+## Works Fully Serversside
 
-## Then does it still work in Singleplayer?
-Sure does!
+In multiplayer, the mod **only needs to be installed on the server** to function, and players without the mod installed
+are able to connect to servers witeh the mod installed.
 
-## Am I allowed to use this in my modpacks?
-As with all of my mods, you have my full permission to use this mod in any modpack. 
+## Version Policy
 
-## Will you ever get a better icon for it?
-Eventually
+As with most of my mods, the plan is to keep Perch on 1.21.1 Neoforge & Fabric
+for as long as 1.21.1 is a prominent version for modpacks, and continue pushing
+updates for the version of Minecraft on Fabric.
 
-## Does it do anything else?
-Nope! That's all. And I currently have no other plans for it.
+As the "long-term-support" version, 1.21.1 is the only Minecraft version
+older than Latest Release which will be receiving new versions of the mod.
 
-## What if I find a bug?
-Given that it's such a small mod, there isn't a whole lot that *could* go wrong, but saying that has opened me up to 
-being incredibly wrong. If you find something wrong, report it on the
-[Issue tracker](https://codeberg.org/Jolkert/perch/issues/)
+## Bug Reports
+
+If you find any bugs, please report them to the [codeberg repo](https://codeberg.org/jolkert/perch/issues)
+
+## Modpacks
+
+As with all of my mods, you may include Perch in any modpack.
