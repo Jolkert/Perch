@@ -7,7 +7,7 @@ java {
 }
 
 plugins {
-	id("earth.terrarium.cloche") version "0.19.11"
+	id("earth.terrarium.cloche") version "0.19.13"
 }
 
 group = "dev.jolkert"
@@ -43,12 +43,12 @@ cloche {
 		}
 	}
 
-	val latestVersion = "26.2" // Fabric Only
+	val latestVersion = "26.3" // Fabric Only
 	val ltsVersion = "1.21.1" // Fabric & Neoforge
 
 	val ltsCommon = common("common:$ltsVersion") {
 		metadata {
-			mixins.from("src/common/1.21.1/main/perch.common-1.21.1.mixins.json")
+			mixins.from("src/common/$ltsVersion/main/perch.common-$ltsVersion.mixins.json")
 		}
 	}
 
@@ -70,16 +70,16 @@ cloche {
 
 		metadata {
 			entrypoint("main", "dev.jolkert.perch.fabric.PerchFabric")
-			mixins.from("src/fabric/26.2/main/perch.fabric-26.2.mixins.json")
+			mixins.from("src/fabric/$latestVersion/main/perch.fabric-$latestVersion.mixins.json")
 
 			dependency {
 				modId = "fabric-api"
 			}
 		}
 
-		val modMenuVersion = "20.0.1"
+		val modMenuVersion = "21.0.0-beta.1"
 		dependencies {
-			fabricApi("0.156.0")
+			fabricApi("0.161.0")
 			runtimeOnly("com.terraformersmc:modmenu:$modMenuVersion")
 		}
 
